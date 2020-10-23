@@ -9,7 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="desafiojera.css">
 	<style type="text/css">
 		.espacamento{
-			background-color: #7de3dd;
+			background-color: #1a1a1a;
+			color: #ffffff;
 		}
 		.buthon{
 			padding-top:0.5%;
@@ -18,41 +19,55 @@
 			padding-top: 70px;
 			padding-bottom: 70px;
 		}
+		.black{
+			background-color: #262626;
+
+		}
+		.search-margin{
+			margin-right: 125px;
+		}
 	</style>
+	<script type="text/javascript">
+		var filme = "<h1> filme 1 </h1>"
+
+
+
+	</script>
 </head>
-<body>
-<div align="center" class=" buthon"><h1>Alfa filmes</h1></div>
-<nav class="navbar navbar-expand-lg navbar-light  shadow p-3 mb-5 rounded bg-gradient-primary espacamento" style="background-color: #7de3dd ">
-  <a class="navbar-brand" href="#">Alfa filmes</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<body background="imagens/wallpaper.jpg">
+<div align="center" class="text-light buthon black pb-2" ><h1>Alfa filmes</h1></div>
+<nav class="navbar navbar-expand-lg navbar-light  shadow p-3 mb-5 rounded bg-gradient-primary espacamento " style="background-color: #1a1a1a; ">
+  <a class="navbar-brand text-light" href="#">Alfa filmes</a>
+
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+  <div class="collapse navbar-collapse " id="navbarSupportedContent" >
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active ">
-        <a class="nav-link" href="#">filmes <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-light" href="#">filmes <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">series</a>
+        <a class="nav-link text-light" href="#">series</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Minha Lista</a>
+        <a class="nav-link text-light" href="#">Minha Lista</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Favoritos</a>
+        <a class="nav-link text-light" href="#">Favoritos</a>
       </li>
       
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <form class="form-inline my-2 my-lg-0 ">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-secondary my-2 my-sm-0 search-margin" type="submit">Search</button>
     </form>
   </div>
 </nav>
 
-<div class="text-secondary buthon2" >
+<div class="text-light buthon2" >
 	<h3 align="center" class="buthon2">Principais</h3>
 	<div>
 		conteudo
